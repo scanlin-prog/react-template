@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "548c7ce677b3e21917350615f88c323d",
+    "revision": "0931b3bc1c796288255c448c4a8dfed3",
     "url": "/react-template/index.html"
   },
   {
-    "revision": "92b88fb19f6f68a8b87b",
+    "revision": "f13696630c253810d3a2",
     "url": "/react-template/static/css/main.5a453221.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-template/static/js/2.0371ab60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92b88fb19f6f68a8b87b",
-    "url": "/react-template/static/js/main.fa71f09c.chunk.js"
+    "revision": "f13696630c253810d3a2",
+    "url": "/react-template/static/js/main.e3612bce.chunk.js"
   },
   {
     "revision": "203a746fe2f03446d97e",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-template/static/media/post-03.e6d3a1f6.png"
   },
   {
-    "revision": "37ca7648c82a1c2f1a1998e0707678e8",
-    "url": "/react-template/static/media/video-placeholder.37ca7648.jpg"
+    "revision": "769ed3438dbe8acb84daaf2324505922",
+    "url": "/react-template/static/media/video-placeholder.769ed343.jpg"
   }
 ]);
