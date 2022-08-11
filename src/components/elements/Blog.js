@@ -9,12 +9,11 @@ function Blog(props) {
 	const history = useHistory();
 
 	function handleClick() {
-		history.push('/blog-post')
-		window.scrollTo(0, 0);
+		history.push('/blog-post');
 	}
 
 	return (
-		<div className="blog">
+		<div className="blog reveal-from-bottom">
 			<div className="blog__image">
 				<img src={props.post.image} alt="blog_image" onClick={handleClick} />
 			</div>

@@ -14,7 +14,7 @@ function ArticleContent(props) {
 				Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Eget sit amet tellus cras adipiscing enim eu. Neque aliquam vestibulum morbi blandit cursus risus.
 			</p>
 			<figure className="article__image-container">
-				<img src={props.articleImage} className="article__image" alt="article_image" />
+				<img src={props.articleImage} className="article__image reveal-from-bottom" alt="article_image" />
 				<p className="article__image-label">Photo by Helena Lopes on Unsplash</p>
 			</figure>
 			<h3 className="article__title article__title-large">Challenges of designing for masses</h3>

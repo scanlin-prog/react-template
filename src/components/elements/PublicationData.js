@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/elements/PublicationData.css'
+import '../../assets/css/elements/PublicationData.css';
 
 function PublicationData(props) {
 	return (

@@ -1,6 +1,7 @@
 .blogs-container {
+	color: #D9E3EA;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 64px;
 	display: grid;
 	grid-template: repeat(1, 1fr) / repeat(3, minmax(0, 1fr));
 	gap: 20px;

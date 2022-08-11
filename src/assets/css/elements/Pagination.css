@@ -1,0 +1,42 @@
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pagination__button {
+	margin: 0 4px;
+	padding: 12px 16px;
+	border-radius: 9999px;
+	border: none;
+	background-color: #25282C;
+	font-size: 14px;
+	font-weight: 500;
+	color: #C5D2DC;
+}
+
+.pagination__button_disabled {
+	color: #707D86;
+}
+
+.pagination__page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #25282C;
+	width: 40px;
+	height: 40px;
+	margin: 0 4px;
+}
+
+.pagination__page-number {
+	color: #C5D2DC;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.pagination__page-number_disabled {
+	color: #707D86;
+}

@@ -36,6 +36,7 @@
 }
 
 .article__title {
+	color: #D9E3EA;
 	margin: 0 0 16px;
 }
 
@@ -64,10 +65,9 @@
 	margin: 0 0 16px;
 }
 
-.article__links-link {
+.article__links-link  {
 	list-style: none;
 	text-decoration: none;
-	color: #D9E3EA;
 }
 
 .article__icons {

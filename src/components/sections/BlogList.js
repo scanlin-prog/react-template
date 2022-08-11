@@ -4,6 +4,7 @@ import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Blogs from '../elements/Blogs';
 import { posts } from '../../utils/utils.js';
+import Pagination from '../elements/Pagination';
 
 const propTypes = {
 	...SectionTilesProps.types
@@ -60,6 +61,7 @@ const BlogList = ({
 					<div className={tilesClasses}>
 
 						<Blogs posts={posts} />
+						<Pagination />
 
 					</div>
 				</div>

@@ -9,6 +9,7 @@ import PublicationData from '../components/elements/PublicationData';
 import BlogTags from '../components/elements/BlogTags';
 import ArticleContent from '../components/sections/ArticleContent';
 import Cta from '../components/sections/Cta';
+import Pagination from '../components/elements/Pagination';
 
 
 function BlogPost() {
@@ -16,7 +17,7 @@ function BlogPost() {
 	return (
 		<>
 			<article className="blog-post">
-				<div className="blog-post-header">
+				<div className="blog-post-header reveal-from-bottom">
 					<h1 className="blog-post-header__title">Designing a functional workflow at home.</h1>
 					<p className="blog-post-header__subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
 					<div className="blog-post-header__container">
@@ -30,9 +31,10 @@ function BlogPost() {
 				<ArticleContent articleImage={articleImage} />
 
 				<div className="blogs">
-					<h2 className="blogs-header">More from Open PRO</h2>
+					<h2 className="blogs-header reveal-from-right">More from Open PRO</h2>
 					<Blogs posts={posts} />
 				</div>
+				<Pagination />
 
 			</article>
 			<Cta split />
